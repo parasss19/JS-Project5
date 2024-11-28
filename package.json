@@ -1,0 +1,22 @@
+{
+  "name": "05-html_canvas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tailwindcss -i ./main.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parasss19/JS-Project5.git"
+  },
+  "author": "Paras",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parasss19/JS-Project5/issues"
+  },
+  "homepage": "https://github.com/parasss19/JS-Project5#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.15"
+  }
+}
