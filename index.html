@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
+    <script src="script.js" defer></script>
     <title>Project 5 HTML Canvas</title>
 </head>
-<body>
-    <h1 class="text-3xl ">
-        Hello world!
-    </h1>
+<body class="m-0 p-0 box-border overflow-hidden bg-no-repeat bg-cover" style="background-image: url(bg-img1.jpg);">
+    <div id="container" class="flex flex-col justify-center items-center h-screen">
+        <h2 class="text-center font-mono font-semibold text-4xl text-white uppercase my-3">Play with your Imagination🎨</h2>
+        <canvas id="draw" width="850" height="550" class="bg-zinc-600 border border-white rounded-xl shadow-xl"></canvas>
+    </div>
 </body>
 </html>
