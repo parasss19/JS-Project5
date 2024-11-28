@@ -36,14 +36,3 @@ canvas.addEventListener("mousemove", (e) =>{
 canvas.addEventListener("mouseup", () => isDrawing=false)       
 canvas.addEventListener("mouseout",() => isDrawing=false)     
 
-
-  
-//   canvas.addEventListener("mousemove", (e) => {
-//     if (!isDrawing) return; // Stop if not drawing
-//     ctx.beginPath();
-//     ctx.moveTo(lastX, lastY); // Move to the last position
-//     ctx.lineTo(e.offsetX, e.offsetY); // Draw to the current position
-//     ctx.stroke();
-//     [lastX, lastY] = [e.offsetX, e.offsetY]; // Update last position
-//   });
-  
