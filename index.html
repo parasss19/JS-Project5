@@ -8,9 +8,22 @@
     <title>Project 5 HTML Canvas</title>
 </head>
 <body class="m-0 p-0 box-border overflow-hidden bg-no-repeat bg-cover" style="background-image: url(bg-img1.jpg);">
-    <div id="container" class="flex flex-col justify-center items-center h-screen">
-        <h2 class="text-center font-mono font-semibold text-4xl text-white uppercase my-3">Play with your Imagination🎨</h2>
-        <canvas id="draw" width="950" height="550" class="bg-zinc-600 border border-white rounded-xl shadow-xl"></canvas>
+    
+    <h2 class="text-center font-custom-font font-semibold text-4xl my-8 text-white uppercase">Play with your Imagination🎨</h2>
+    
+    <div id="container" class="flex justify-evenly"> 
+        <!-- Control Panel -->
+        <div class="flex flex-col gap-6 border-2 border-red-600 p-4 rounded-lg backdrop-blur-md h-fit w-fit">
+            <div class="flex gap-3 items-center border border-whute rounded-lg p-2 hover:border-blue-400">
+                <label class="text-white font-mono text-lg font-semibold" for="base">Select Color</label>
+                <input id="base" type="color" name="base" value="#ffc600">
+            </div>
+            <button id="magic-button" class="text-white font-mono text-lg font-semibold border border-whute rounded-lg p-2 hover:border-blue-400 hover:text-xl transition-all duration-400">Magic Button🪄</button>
+            <button id="erase-button" class="text-white font-mono text-lg font-semibold border border-whute rounded-lg p-2 hover:border-blue-400 hover:text-xl transition-all duration-400">Erase</button>
+        </div>
+        <!-- Canvas -->
+        <canvas id="draw" width="900" height="500" class="bg-zinc-600 border border-white rounded-xl shadow-xl"></canvas>
     </div>
+
 </body>
 </html>

@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      //custom font
+      fontFamily: {
+        "custom-font" : ["Poppins"]
+      }
+    },
   },
   plugins: [],
 }
